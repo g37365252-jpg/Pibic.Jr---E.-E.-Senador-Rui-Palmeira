@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Hero com imagem grande -->
+<section class="hero-biologia">
+    <div class="hero-overlay-biologia">
+        <div class="hero-conteudo-biologia">
+            <img src="/static/img/dna.png" alt="Galáxia" class="hero-logo-biologia">
+            <div class="hero-texto-biologia">
+                <h1>Biologia</h1>
+                <p>Compreendendo a vida e sua complexidade</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="conteudo-biologia">
+<h1>O que é Biologia?</h1>
+
+<p>
+A <strong>Biologia</strong> é a ciência natural que estuda a vida em todas as suas formas, níveis de organização e interações. Ela investiga a <strong>estrutura, o funcionamento, a origem, a evolução</strong> e <strong>a diversidade dos seres vivos</strong>, desde <strong>organismos microscópicos até ecossistemas complexos</strong>. A Biologia busca compreender como as células funcionam, como os organismos se desenvolvem, como as espécies evoluem ao longo do tempo e como os seres vivos interagem entre si e com o ambiente. Fundamenta-se no método científico, utilizando <strong>observação sistemática, experimentação, análise genética, modelagem estatística</strong> e <strong>princípios da química e da física aplicados aos sistemas vivos</strong>.
+</p>
+
+<p>
+Atualmente, a Biologia divide-se em diversos ramos, entre eles:
+</p>
+
+<p>
+<strong>° Citologia – estuda as células, unidades fundamentais da vida.</strong>
+</p>
+
+<p>
+<strong>° Genética – investiga a hereditariedade e a variação dos organismos.</strong>
+</p>
+
+<p>
+<strong>° Ecologia – analisa as relações entre os seres vivos e o meio ambiente.</strong>
+</p>
+
+<p>
+<strong>° Zoologia – dedica-se ao estudo dos animais.</strong>
+</p>
+
+<p>
+<strong>° Botânica – estuda as plantas e sua diversidade.</strong>
+</p>
+
+<p>
+Historicamente, a Biologia consolidou-se como ciência a partir dos estudos anatômicos e fisiológicos da Antiguidade e do Renascimento. No século XIX, <strong>Charles Darwin</strong> revolucionou a compreensão da vida ao propor a <strong>teoria da evolução por seleção natural</strong>. <strong>Gregor Mendel</strong> estabeleceu as bases da genética ao estudar a <strong>hereditariedade em plantas</strong>. No século XX, a descoberta da estrutura do <strong>DNA</strong> marcou um avanço decisivo, permitindo compreender os mecanismos moleculares da herança e da síntese de proteínas. Desde então, áreas como <strong>biotecnologia, genética molecular</strong> e <strong>ecologia</strong> expandiram profundamente o campo biológico.
+</p>
+
+<p>
+Segundo o <strong>Harvard Dictionary of Science</strong>, a Biologia é definida como:
+</p>
+
+<p>
+<strong>>“A ciência que estuda os organismos vivos, seus processos vitais, estrutura, desenvolvimento e evolução.”</strong>
+</p>
+
+<p>
+Essa definição destaca dois aspectos centrais:
+</p>
+
+<p>
+<strong>1. O objeto de estudo</strong> — os seres vivos e seus processos biológicos.
+</p>
+
+<p>
+<strong>2. A abordagem científica</strong> — análise de características físicas e dinâmicas no espaço.
+</p>
+
+<p>
+A Biologia moderna utiliza ferramentas avançadas como microscopia eletrônica, sequenciamento genético, modelagem computacional, técnicas de biologia molecular e análises ambientais de larga escala. Além disso, integra conhecimentos de química, física, matemática e tecnologia para interpretar dados complexos sobre funcionamento celular, biodiversidade e mudanças ambientais.
+</p>
+
+<p>
+Em síntese, a Biologia busca responder questões fundamentais como:
+</p>
+
+<p>
+Como surgiu a vida na Terra? Como os organismos evoluem e se adaptam? Como funciona o código genético? Como preservar a biodiversidade do planeta?
+</p>
+
+<p>
+Mais do que estudar plantas e animais, a Biologia é a ciência que procura compreender os mecanismos que sustentam a vida, conectando conhecimento científico e responsabilidade ambiental para entender e proteger o mundo vivo que nos cerca.
+</p>
+
+<img src="{{ url_for('static', filename='img/biologiaa.jpg') }}"
+     alt="Imagem de Biologia"
+     style="max-width:100%; margin-top:20px; border-radius:10px;">
+
+<h2>📘 Material de Apoio de Biologia</h2>
+
+<ul>
+    <li>
+        📄 Biologia
+        <a href="{{ url_for('static', filename='oba/bio1.docx') }}" target="_blank">
+            Bio.1
+        </a>
+
+<ul>
+    <li>
+        📄 Biologia
+        <a href="{{ url_for('static', filename='oba/bio2.pdf') }}" target="_blank">
+            Bio.2
+        </a>
+
+<ul>
+    <li>
+        📄 Biologia
+        <a href="{{ url_for('static', filename='oba/bio3.docx') }}" target="_blank">
+            Bio.3
+        </a>
+
+<ul>
+    <li>
+        📄 Biologia
+        <a href="{{ url_for('static', filename='oba/bio4.pdf') }}" target="_blank">
+            Bio.4
+        </a>
+
+{% endblock %}

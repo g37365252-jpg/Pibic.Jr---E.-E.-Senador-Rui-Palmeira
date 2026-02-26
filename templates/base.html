@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto PIBIC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav>
+    <a href="/">Início</a>
+    <a href="/sobre">Sobre</a>
+    <a href="/astronomia">Astronomia</a>
+    <a href="/quimica">Química</a>
+    <a href="/biologia">Biologia</a>
+</nav>
+
+<div class="conteudo">
+    {% block content %}{% endblock %}
+</div>
+
+<footer>
+    <p>© 2026 - Projeto PIBIC</p>
+</footer>
+
+</body>
+</html>

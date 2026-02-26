@@ -1,0 +1,213 @@
+% extends "base.html" %}
+
+{% block content %}
+
+<!-- Hero com imagem grande -->
+<section class="hero-astronomia">
+    <div class="hero-overlay">
+        <div class="hero-conteudo">
+            <img src="/static/img/circulo.png" alt="Galáxia" class="hero-logo">
+            <div class="hero-texto">
+                <h1>Astronomia</h1>
+                <p>Explorando o universo sem limites</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Conteúdo da página -->
+<section class="conteudo-astronomia">
+    <h2>O que é Astronomia?</h2>
+    <p>
+        A <strong>Astronomia</strong> é a ciência natural que estuda os corpos celestes e os fenômenos que ocorrem além da atmosfera da Terra. Ela investiga a <strong>origem</strong>, <strong>evolução</strong>, <strong>composição</strong>, <strong>movimentos</strong> e <strong>interações de estrelas, planetas, luas, cometas, asteroides, galáxias, nebulosas</strong> e <strong>do próprio Universo como um todo</strong>. Diferente da astrologia (que não é ciência), a Astronomia baseia-se no método científico, utilizando observações sistemáticas, experimentação indireta, modelagem matemática e leis físicas — especialmente as da Física, como a <strong>gravitação, o eletromagnetismo, a mecânica quântica e a relatividade</strong>.
+    <p>
+Historicamente, a Astronomia é uma das ciências mais antigas da humanidade. Civilizações como as da Mesopotâmia, Egito, China e povos indígenas das Américas já observavam o céu para medir o tempo, prever estações e orientar navegações. Com o avanço científico, figuras como <strong>Galileu Galilei</strong> revolucionaram a área ao utilizar o telescópio para observação sistemática, enquanto <strong>Isaac Newton</strong> explicou os movimentos celestes por meio da <strong>Lei da Gravitação Universal</strong>. No século XX, <strong>Albert Einstein</strong> ampliou essa compreensão com a <strong>Teoria da Relatividade</strong>, permitindo explicar fenômenos como buracos negros e a expansão do Universo.
+    </p>
+    <p>
+Atualmente, a Astronomia divide-se em diversos ramos, entre eles:
+    </p>
+    <p>
+<strong>° Astrofísica</strong> – estuda as propriedades físicas dos astros.
+    </p>
+    <p>
+<strong>° Cosmologia</strong> – investiga a origem e evolução do Universo.
+    </p>
+    <p>
+<strong>° Astronomia planetária</strong> – analisa planetas e sistemas planetários.
+    </p>
+    <p>
+<strong>° Astronomia estelar</strong> – foca nas estrelas e seus ciclos de vida.
+    </p>
+<strong>° Radioastronomia</strong> – utiliza ondas de rádio para observar o espaço.
+    </p>
+    <p>
+Segundo o <strong>Harvard Dictionary of Astronomy</strong> (Dicionário de Astronomia de Harvard), a Astronomia é definida como:
+    </p>
+    <p>
+<strong>> “A ciência que estuda os corpos celestes e os fenômenos associados a eles, incluindo sua origem, evolução, composição, distância e movimento no espaço.”</strong>
+    </p>
+    <p>
+Essa definição destaca dois aspectos centrais:
+    </p>
+    <p>
+<strong>1. O objeto de estudo</strong> — os corpos celestes e fenômenos cósmicos.
+    </p>
+    <p>
+<strong>2. A abordagem científica</strong> — análise de características físicas e dinâmicas no espaço.
+    </p>
+    <p>
+A Astronomia moderna utiliza instrumentos avançados como telescópios espaciais (por exemplo, o <strong>Hubble Space Telescope</strong>), radiotelescópios, sondas interplanetárias e satélites artificiais. Além disso, depende fortemente de áreas como computação, engenharia e matemática para interpretar grandes volumes de dados.
+    </p>
+    <p>
+Em síntese, a Astronomia busca responder algumas das perguntas mais fundamentais da humanidade:
+    </p>
+    <p>
+Como o Universo surgiu?
+Qual é o destino final do cosmos?
+Existem outros planetas habitáveis?
+Estamos sozinhos no Universo?
+    </p>
+    <p>
+Mais do que observar estrelas, a Astronomia é a ciência que procura compreender nosso lugar no Universo, unindo curiosidade humana e rigor científico para desvendar os mistérios do cosmos.
+    </p>
+
+<img src="{{ url_for('static', filename='img/astronomia.jpg') }}" 
+    alt="Imagem do espaço">
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+
+    <p>
+O <strong>Programa Institucional de Bolsas de Iniciação Científica (PIBIC)</strong> é uma das principais iniciativas de incentivo à pesquisa no Brasil, especialmente no contexto do ensino médio e superior. Seu objetivo central é inserir estudantes no universo da investigação científica desde cedo, despertando o pensamento crítico, a autonomia intelectual e o interesse pela produção de conhecimento.
+    </p>
+    <p>
+Ao participar do PIBIC, o estudante deixa de ser apenas receptor de conteúdos e passa a atuar como pesquisador em formação. Ele aprende a formular perguntas, levantar hipóteses, analisar dados e comunicar resultados — habilidades fundamentais não apenas para a vida acadêmica, mas também para qualquer área profissional. Além disso, o contato direto com orientadores e projetos científicos amplia a visão de mundo do aluno e fortalece sua preparação para desafios futuros, como vestibulares, ENEM e processos seletivos acadêmicos.
+    </p>
+    <p>
+Outro aspecto extremamente relevante do PIBIC é a possibilidade de participação em competições científicas de alcance nacional, como a Olimpíada Brasileira de Astronomia e Astronáutica (OBA). A OBA é uma das maiores olimpíadas científicas do país e estimula o interesse por astronomia e astronáutica, promovendo o desenvolvimento do raciocínio lógico, da interpretação científica e da aplicação prática de conceitos físicos e matemáticos. Ao integrar o PIBIC, o estudante recebe suporte acadêmico, orientação especializada e aprofundamento teórico que o preparam melhor para esse tipo de desafio.
+    </p>
+    <p>
+Participar de olimpíadas científicas como a OBA não apenas fortalece o currículo do estudante, mas também amplia suas oportunidades acadêmicas, podendo abrir portas para programas de intercâmbio, bolsas de estudo e reconhecimento em nível nacional. Além disso, essas experiências contribuem para o desenvolvimento da disciplina, da perseverança e da confiança intelectual.
+    </p>
+    <p>
+Dessa forma, o PIBIC vai muito além de uma bolsa de pesquisa: ele é um instrumento de transformação educacional. Ao incentivar a investigação científica e possibilitar a participação em olimpíadas nacionais, o programa contribui diretamente para a formação de jovens mais preparados, curiosos e comprometidos com o avanço do conhecimento científico no Brasil.
+    </p>
+
+<img class="oba-img" src="{{ url_for('static', filename='oba/oba2.jpg') }}">
+
+<img class="oba-img oba-img-grande" src="{{ url_for('static', filename='oba/oba1.jpg') }}">
+    <p>
+(Imagem 1: participantes do Projeto Pibic da Escola Estadual Senador Rui Palmeira (AL) tendo uma aula preparatória para a OBA.)
+    </p>
+    <p>
+(Imagem 2: participante do Projeto Pibic da Escola Estadual Senador Rui Palmeira (AL) estudando durante uma aula preparatória da OBA.)
+    </p>
+    <p>
+Avante estão uma biografia da astrofísica renomada <strong>Susan Jocelyn Bell Burnell</strong> e um jornal criado pelos alunos participantes do Projeto Pibic da Escola Estadual Senador Rui Palmeira (AL) em 2025:
+   </p>
+   <p>
+<strong>Obs.: algumas informações presentes no jornal online são propostas humorísticas e não devem ser levadas a sério.</strong>
+    </p>
+
+<ul>
+    <li>
+        Biografia -
+        <a href="{{ url_for('static', filename='oba/susan.pdf') }}" target="_blank">Jocelyn Bell Burnell</a>
+    </li>
+
+<ul>
+     <li>
+        Jornal -
+        <a href="{{ url_for('static', filename='oba/jornal.jpeg') }}" target="_blank">Jornal 1</a> 
+        <a href="{{ url_for('static', filename='oba/jornal1.pdf') }}" target="_blank">Jornal 2</a>
+    </li>
+
+    </p>
+    </p>
+<h2>📄 Provas antigas da OBA</h2>
+
+<ul>
+    <li>
+        2020 -
+        <a href="{{ url_for('static', filename='oba/oba nivel 4 2020.pdf') }}" target="_blank">Prova</a> |
+        <a href="{{ url_for('static', filename='oba/gabarito oba nivel 4 2020.pdf') }}" target="_blank">Gabarito</a>
+    </li>
+
+    <li>
+        2021 -
+        <a href="{{ url_for('static', filename='oba/oba nivel 4 2021.pdf') }}" target="_blank">Prova</a> |
+        <a href="{{ url_for('static', filename='oba/gabarito oba nivel 4 2021.pdf') }}" target="_blank">Gabarito</a>
+    </li>
+
+    <li>
+        2022 -
+        <a href="{{ url_for('static', filename='oba/oba nivel 4 2022.pdf') }}" target="_blank">Prova</a> |
+        <a href="{{ url_for('static', filename='oba/gabarito oba nivel 4 2022.pdf') }}" target="_blank">Gabarito</a>
+    </li>
+
+    <li>
+        2023 -
+        <a href="{{ url_for('static', filename='oba/oba nivel 4 2023.pdf') }}" target="_blank">Prova</a> |
+        <a href="{{ url_for('static', filename='oba/gabarito oba nivel 4 2023.pdf') }}" target="_blank">Gabarito</a>
+    </li>
+
+    <li>
+        2024 -
+        <a href="{{ url_for('static', filename='oba/oba nivel 4 2024.pdf') }}" target="_blank">Prova</a> |
+        <a href="{{ url_for('static', filename='oba/gabarito oba nivel 4 2024.pdf') }}" target="_blank">Gabarito</a>
+    </li>
+</ul>
+
+
+<h2>📘 Material de Apoio para a OBA</h2>
+
+<ul>
+    <li>
+        📄 Astronomia
+        <a href="{{ url_for('static', filename='oba/astronomia2.docx') }}" target="_blank">
+            Astro.2
+        </a>
+        <a>
+        </a>
+         <a href="{{ url_for('static', filename='oba/astronomia3.docx') }}" target="_blank">
+            Astro.3
+        </a>
+    </li>
+
+    <li>
+        📄 Astronáutica
+        <a href="{{ url_for('static', filename='oba/astronautica3.docx') }}" target="_blank">
+            Astronáutica Nível 3 &
+        </a>
+        <a href="{{ url_for('static', filename='oba/astronautica4.docx') }}" target="_blank">
+             Astronáutica Nível 4
+        </a>
+    </li>
+
+    <li>
+        📄 Livro
+        <a href="{{ url_for('static', filename='oba/livro.pdf') }}" target="_blank">
+            Astronomia e Astrofísica (Kepler de Souza)
+        </a>
+    </li>
+
+
+    <li>
+        📄 Astronomia.docx
+        <a href="{{ url_for('static', filename='oba/astronomiad.docx') }}" target="_blank">
+            Guia da OBA
+        </a>
+    </li>
+
+
+    <li>
+        📄 Contéudos OBA
+        <a href="{{ url_for('static', filename='oba/conteudooba.docx') }}" target="_blank">
+            Conteúdos da OBA
+        </a>
+    </li>
+</section>
+{% endblock %}

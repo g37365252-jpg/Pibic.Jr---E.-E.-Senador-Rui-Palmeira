@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Hero com imagem grande -->
+<section class="hero-quimica">
+    <div class="hero-overlay-quimica">
+        <div class="hero-conteudo-quimica">
+            <img src="/static/img/becker.png" alt="Galáxia" class="hero-logo-quimica">
+            <div class="hero-texto-quimica">
+                <h1>Química</h1>
+                <p>Investigando a matéria</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="conteudo-quimica">
+<h1>O que é Química?</h1>
+
+<p>
+A <strong>Química</strong> é a ciência natural que estuda a <strong>matéria, sua composição, estrutura, propriedades</strong> e <strong>as transformações que ela pode sofrer</strong>. Ela investiga como os átomos se organizam para formar moléculas, como as substâncias interagem entre si e quais leis regem essas transformações. Desde reações simples do cotidiano até processos industriais complexos, a Química busca compreender os mecanismos que explicam as mudanças físicas e químicas da matéria. Fundamenta-se no <strong>método científico</strong>, utilizando <strong>experimentação controlada, modelagem teórica, cálculos matemáticos</strong> e <strong>princípios físicos</strong> — como a <strong>termodinâmica, a mecânica quântica</strong> e <strong>a cinética química</strong>.
+</p>
+
+<p>
+Historicamente, a Química evoluiu a partir da alquimia, prática antiga que misturava filosofia, metalurgia e experimentação. No século XVII, com o avanço do método científico, consolidou-se como ciência. <strong>Antoine Lavoisier</strong> estabeleceu a <strong>Lei da Conservação da Massa</strong>, transformando a Química em uma disciplina quantitativa. No século XIX, <strong>John Dalton</strong> propôs a <strong>teoria atômica moderna</strong>, enquanto <strong>Dmitri Mendeleev</strong> organizou os elementos na <strong>Tabela Periódica</strong>, revelando padrões fundamentais da matéria. No século XX, o desenvolvimento da <strong>química quântica</strong> permitiu explicar as ligações químicas e o comportamento eletrônico dos átomos com maior precisão.
+</p>
+
+<p>
+Atualmente, a Química divide-se em diversos ramos, entre eles:
+</p>
+
+<p>
+<strong>° Química Orgânica</strong> – estuda os compostos que contêm carbono.
+</p>
+
+<p>
+<strong>° Química Inorgânica</strong> – analisa substâncias minerais e compostos não orgânicos.
+</p>
+
+<p>
+<strong>° Físico-Química</strong> – investiga os princípios físicos que regem as transformações químicas.
+</p>
+
+<p>
+<strong>° Química Analítica</strong> – desenvolve métodos para identificar e quantificar substâncias.
+</p>
+
+<p>
+<strong>° Bioquímica</strong> – estuda as reações químicas que ocorrem nos seres vivos.
+</p>
+
+<p>
+Segundo o <strong>Harvard Dictionary of Science</strong>, a Química é definida como:
+</p>
+
+<p>
+<strong>>“A ciência que estuda a composição, estrutura e propriedades das substâncias, bem como as transformações que elas sofrem.”</strong>
+</p>
+
+<p>
+Essa definição destaca dois aspectos centrais:
+</p>
+
+<p>
+<strong>1. O objeto de estudo</strong> — a matéria e suas transformações.
+</p>
+
+<p>
+<strong>2. A abordagem científica</strong> — análise estrutural, energética e quantitativa das substâncias.
+</p>
+
+<p>
+A Química moderna utiliza instrumentos sofisticados como <strong>espectrômetros, cromatógrafos, microscópios eletrônicos</strong> e <strong>técnicas computacionais avançadas para modelagem molecular</strong>. Também depende fortemente da matemática, da física e da tecnologia para interpretar dados experimentais e desenvolver novos materiais, medicamentos, combustíveis e tecnologias sustentáveis.
+</p>
+
+<p>
+Em síntese, a Química busca responder questões fundamentais como:
+</p>
+
+<p>
+Do que é feita a matéria? Como as substâncias se transformam? Como criar novos materiais com propriedades específicas? Como produzir energia de forma mais limpa e eficiente?
+</p>
+
+<p>
+Mais do que misturar substâncias em laboratório, a Química é a ciência que explica a base material do mundo, conectando teoria e prática para compreender e transformar a realidade que nos cerca.
+</p>
+
+<p>
+</p>
+
+<img src="{{ url_for('static', filename='img/quimicaa.jpg') }}" 
+     alt="Laboratório de Química" 
+     style="max-width:100%; margin-top:20px; border-radius:10px;">
+
+
+<h2>📘 Material de Apoio para Química</h2>
+
+<ul>
+    <li>
+        📄 Química
+        <a href="{{ url_for('static', filename='oba/quimicax.docx') }}" target="_blank">
+            Quím.1
+        </a>
+<ul>
+    <li>
+        📄 Química 
+        <a href="{{ url_for('static', filename='oba/quimicaxx.docx') }}" target="_blank">
+            Quím.2
+        </a>
+
+<h2>📘 Material de Apoio para OBQ</h2>
+
+<ul>
+“A ciência que estuda a composição, estrutura e propriedades das substâncias, bem como as transformações que elas sofrem.”    <li>
+        📄 OBQ (Olimpíada Brasileira de Química)
+        <a href="{{ url_for('static', filename='oba/jp.pdf') }}" target="_blank">
+            OBQ
+        </a>
+{% endblock %}
