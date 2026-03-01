@@ -337,3 +337,24 @@ ul li a:hover {
 .oba-img-grande {
     width: 534px;
 }
+/* ===== Ajuste para celular ===== */
+@media (max-width: 768px) {
+
+    .hero-astronomia,
+    .hero-quimica,
+    .hero-biologia {
+
+        height: 60vh;              /* diminui altura */
+        background-attachment: scroll; /* remove o parallax no celular */
+        background-position: center top; /* mostra parte superior da imagem */
+    }
+
+    .hero-astronomia h1,
+    .hero-quimica h1,
+    .hero-biologia h1 {
+        font-size: 1.8rem; /* diminui título */
+        padding: 0 10px;
+        text-align: center;
+    }
+
+}
